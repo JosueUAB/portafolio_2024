@@ -94,6 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/portafolio_2024/",
+            "repo": "https://github.com/JosueUAB/portafolio_2024.git"
+                }
+
         }
       }
     }

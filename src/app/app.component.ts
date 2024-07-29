@@ -9,6 +9,7 @@ import { ContactosComponent } from './pages/contactos/contactos.component';
 import { HabilidadesComponent } from './pages/habilidades/habilidades.component';
 import { initFlowbite } from 'flowbite';
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
+import { BibliografiaComponent } from './pages/bibliografia/bibliografia.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -21,7 +22,8 @@ import { CurriculumComponent } from './pages/curriculum/curriculum.component';
     ProyectosComponent,
     ContactosComponent,
     HabilidadesComponent,
-    CurriculumComponent
+    CurriculumComponent,
+    BibliografiaComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
