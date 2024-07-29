@@ -1,13 +1,59 @@
-
 <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto">
     <h1 class="mb-12 text-4xl font-extrabold leading-none tracking-tight text-center text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
       <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Curriculum Vitae</span>
     </h1>
     <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">para ver el curriculum presione en el siguiente boton.</h1>
-      <button class="flex-shrink-0 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg mt-10 sm:mt-0">ver curriculun</button>
+      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">Para ver el currículum presione en el siguiente botón.</h1>
+      <a href="#default-modal" class="flex-shrink-0 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg mt-10 sm:mt-0">Ver currículum</a>
     </div>
   </div>
 </section>
 
+<!-- Main modal -->
+<div id="default-modal" tabindex="-1" aria-hidden="true" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50 hidden">
+  <div class="relative p-4 w-full max-w-2xl max-h-full">
+    <!-- Modal content -->
+    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+      <!-- Modal header -->
+      <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+          Currículum Vitae
+        </h3>
+        <a href="#" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
+          <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+          </svg>
+          <span class="sr-only">Close modal</span>
+        </a>
+      </div>
+      <!-- Modal body -->
+      <div class="p-4 md:p-5 space-y-4">
+        <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF5pqd8Hyo&#x2F;d0NwWTcnJxzg1PXp0zuB1g&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF5pqd8Hyo&#x2F;d0NwWTcnJxzg1PXp0zuB1g&#x2F;view?utm_content=DAF5pqd8Hyo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Curriculum Vitae Moderno Analista de Sistemas Celeste Fluor y Negro</a> de Josue Israel Arista Huanca
+      </div>
+      <!-- Modal footer -->
+      <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+        <a href="mailto:contacto@ejemplo.com" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contactar</a>
+        <a href="#" class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Cerrar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CSS for Modal visibility -->
+<style>
+  #default-modal:target {
+    display: flex;
+  }
+
+  #default-modal {
+    display: none;
+  }
+</style>
