@@ -8,6 +8,7 @@ import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { ContactosComponent } from './pages/contactos/contactos.component';
 import { HabilidadesComponent } from './pages/habilidades/habilidades.component';
 import { initFlowbite } from 'flowbite';
+import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -19,7 +20,8 @@ import { initFlowbite } from 'flowbite';
     SobreMiComponent,
     ProyectosComponent,
     ContactosComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    CurriculumComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
